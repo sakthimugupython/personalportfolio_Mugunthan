@@ -4,9 +4,18 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useData } from '../../hooks/useData';
 import Loading from '../Loading/Loading';
 import Error from '../Error/Error';
+import Project1 from '../../assets/Project1.jpeg';
+import Project2 from '../../assets/Project2.png';
+import Project3 from '../../assets/Project3.jpeg';
 import './Projects.css';
 
 gsap.registerPlugin(ScrollTrigger);
+
+const projectImages = {
+  1: Project1,
+  2: Project2,
+  3: Project3
+};
 
 const Projects = () => {
   const { data, loading, error } = useData('projects');
@@ -52,7 +61,7 @@ const Projects = () => {
               <div className="project-number">{String(index + 1).padStart(2, '0')}</div>
               
               <div className="project-image">
-                <img src={project.image} alt={project.title} loading="lazy" />
+                <img src={projectImages[project.id]} alt={project.title} loading="lazy" />
               </div>
 
               <div className="project-details">

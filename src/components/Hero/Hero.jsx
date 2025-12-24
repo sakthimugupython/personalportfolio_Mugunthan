@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { useData } from '../../hooks/useData';
 import Loading from '../Loading/Loading';
 import Error from '../Error/Error';
+import profileImg from '../../assets/profile.jpeg';
 import './Hero.css';
 
 const Hero = () => {
@@ -36,7 +37,7 @@ const Hero = () => {
   return (
     <section className="hero" id="hero" ref={heroRef}>
       <div className="hero-bg">
-        <img src={data.backgroundImage} alt="Hero Background" />
+        <img src={profileImg} alt="Hero Background" />
       </div>
 
       <div className="hero-overlay"></div>
