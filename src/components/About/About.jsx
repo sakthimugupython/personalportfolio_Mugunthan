@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useData } from '../../hooks/useData';
 import Loading from '../Loading/Loading';
 import Error from '../Error/Error';
+import resumePDF from '../../assets/Mugunthan Resume.pdf';
 import './About.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -93,7 +94,7 @@ const About = () => {
 
         <div className="about-cta">
           <a 
-            href={data.resumeLink} 
+            href={resumePDF} 
             className="resume-link" 
             download="Mugunthan Resume.pdf"
             rel="noopener noreferrer"
