@@ -1,0 +1,135 @@
+.education {
+  padding: 6rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: var(--color-bg-alt);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.education-card {
+  background: var(--color-card);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  border-color: var(--color-primary);
+}
+
+.education-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.education-degree {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.5rem;
+}
+
+.education-institution {
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.education-meta {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.education-gpa {
+  color: var(--color-text);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.education-highlights {
+  list-style: none;
+  padding: 0;
+}
+
+.education-highlights li {
+  color: var(--color-text-muted);
+  padding-left: 1.25rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.education-highlights li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+}
+
+.certifications-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-text);
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.cert-card {
+  background: var(--color-card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-5px);
+}
+
+.cert-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.cert-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+}
+
+.cert-issuer {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.cert-date {
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .certifications-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

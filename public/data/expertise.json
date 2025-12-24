@@ -1,0 +1,18 @@
+{
+  "title": "My Expertise",
+  "subtitle": "Full-stack capabilities across modern web technologies",
+  "services": [
+    {
+      "id": 1,
+      "icon": "⚛️",
+      "title": "Frontend Development",
+      "description": "Building responsive, performant UIs with React and modern CSS. Focus on user experience and accessibility."
+    },
+    {
+      "id": 2,
+      "icon": "🔧",
+      "title": "Backend Development",
+      "description": "Designing scalable APIs and server architectures with  Python, and databases. RESTful and GraphQL expertise."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Experience",
+  "subtitle": "My professional journey",
+  "experiences": [
+    {
+      "id": 1,
+      "role": "Frontend Developer Intern",
+      "company": "TechStart Inc.",
+      "location": "San Francisco, CA",
+      "period": "Jun 2024 - Present",
+      "description": [
+        "Developed responsive UI components using React and TypeScript",
+        "Collaborated with design team to implement pixel-perfect interfaces",
+        "Improved page load performance by 40% through code optimization",
+        "Participated in code reviews and agile sprint planning"
+      ],
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Jest"]
+    },
+    {
+      "id": 2,
+      "role": "Freelance Web Developer",
+      "company": "Self-Employed",
+      "location": "Remote",
+      "period": "Jan 2023 - May 2024",
+      "description": [
+        "Built custom websites for small businesses and startups",
+        "Managed full project lifecycle from requirements to deployment",
+        "Implemented SEO best practices increasing client visibility",
+        "Maintained long-term client relationships with 100% satisfaction"
+      ],
+      "technologies": ["React", "Node.js", "WordPress", "MongoDB"]
+    },
+    {
+      "id": 3,
+      "role": "Teaching Assistant",
+      "company": "State University",
+      "location": "Boston, MA",
+      "period": "Sep 2022 - Dec 2022",
+      "description": [
+        "Assisted professor in Introduction to Web Development course",
+        "Held office hours helping 50+ students with HTML, CSS, JavaScript",
+        "Graded assignments and provided constructive feedback",
+        "Created supplementary learning materials and tutorials"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "Git"]
+    }
+  ]
+}

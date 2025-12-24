@@ -1,0 +1,42 @@
+{
+  "title": "Education",
+  "subtitle": "Academic background & certifications",
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "State University",
+      "location": "Boston, MA",
+      "period": "2020 - 2024",
+      "gpa": "3.8/4.0",
+      "highlights": [
+        "Dean's List - All Semesters",
+        "Senior Project: AI-Powered Code Review Tool",
+        "Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "2024",
+      "credentialUrl": "https://aws.amazon.com/certification"
+    },
+    {
+      "id": 2,
+      "name": "Meta Frontend Developer Certificate",
+      "issuer": "Meta (Coursera)",
+      "date": "2023",
+      "credentialUrl": "https://coursera.org"
+    },
+    {
+      "id": 3,
+      "name": "MongoDB Developer Certification",
+      "issuer": "MongoDB University",
+      "date": "2023",
+      "credentialUrl": "https://university.mongodb.com"
+    }
+  ]
+}

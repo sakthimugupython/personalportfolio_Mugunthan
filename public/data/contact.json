@@ -1,0 +1,24 @@
+{
+  "title": "Let's Build Something",
+  "subtitle": "Amazing Together",
+  "description": "Looking for a fullstack developer to join your team or collaborate on a project? Let's connect and create something great.",
+  "email": "mugu.7533@gmail.com",
+  "phone": "+917639000740, +917639027885",
+  "location": "Tirunelveli, Tamil Nadu",
+  "cta": {
+    "text": "Start a Project",
+    "link": "mailto:mugu.7533@gmail.com"
+  },
+  "social": [
+    { "name": "Instagram", "url": "https://instagram.com", "icon": "fab fa-instagram" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/mugunthan-m-348063364/", "icon": "fab fa-linkedin" },
+    { "name": "WhatsApp", "url": "https://wa.me/+917639000740", "icon": "fab fa-whatsapp" }
+  ],
+  "footer": {
+    "copyright": "© 2025. All rights reserved.",
+    "links": [
+      { "text": "Privacy", "url": "#" },
+      { "text": "Terms", "url": "#" }
+    ]
+  }
+}

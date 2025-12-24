@@ -1,0 +1,8 @@
+{
+  "badge": "FULLSTACK DEVELOPER",
+  "headline": ["DEEP", "SCALABLE", "SOLUTIONS"],
+  "description": "Crafting robust web applications from frontend to backend. Based in New York, specializing in modern web technologies and cloud infrastructure.",
+  "backgroundImage": "/profile.jpeg",
+  "scrollText": "Scroll to explore",
+  "navDots": ["Home", "About", "Work", "Contact"]
+}

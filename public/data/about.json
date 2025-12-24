@@ -1,0 +1,13 @@
+{
+  "title": "About Me",
+  "subtitle": "Fullstack Developer",
+  "leftContent": "I am a Fullstack Developer focused on building scalable, high-performance web applications by combining clean frontend experiences with reliable backend systems. I work across the entire development lifecycle—from designing intuitive user interfaces to implementing secure APIs and managing databases.",
+  "rightContent": "My expertise includes modern JavaScript frameworks, server-side development, and data-driven architectures. I emphasize code quality, performance optimization, and maintainability, ensuring that applications are both efficient and future-ready. Driven by continuous learning and real-world problem solving, I enjoy translating complex requirements into practical digital solutions. I am particularly interested in developing applications that deliver measurable value through thoughtful design, solid engineering, and seamless user interaction.",
+  "highlights": [
+    { "label": "Years Experience", "value": "5+" },
+    { "label": "Projects Completed", "value": "20+" },
+    { "label": "Technologies", "value": "15+" },
+    { "label": "Happy Clients", "value": "10+" }
+  ],
+  "resumeLink": "/src/assets/Mugunthan Resume.pdf"
+}
